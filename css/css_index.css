@@ -1,0 +1,164 @@
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	color:black;
+	font-family: 'Roboto', sans-serif;
+}
+
+#header{
+	position:sticky;
+	top:0rem;
+	display:flex;
+	justify-content:space-between;
+	color: white;
+	background-color: rgba(0,0,0,1);
+	z-index: 100;
+}
+
+.h1_hedear{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.h1_hedear:hover{
+	color: blue;
+}
+
+.options_header{
+	display: flex;
+	margin: 1.2rem;
+	font-size: 1.5rem;
+	justify-content: space-around;
+}
+
+.options_text{
+	margin: 1.2rem;
+}
+
+#darkmode_header:hover{
+	color: black;
+}
+
+/*Welcome Section*/
+
+#welcome_section{
+	position:relative;
+	background-image: linear-gradient(90deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 100%);
+	height: 500rem;
+	max-height: 1200px;
+	color: green;
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	flex-direction: column;
+ 	align-content: center;
+}
+
+.tittle_main{
+	margin-top: 30rem;
+	font-size: 5rem;
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+ }
+
+ .tittle:hover{
+ 	margin-top: -1rem;
+	font-size: 7rem;
+	color: red;
+ }
+
+.text_main{
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	justify-content: center; 
+	font-size: 4rem;
+ }
+
+ /*Projects Section*/
+
+ .projects_section{
+ 	position: relative;
+ 	display: flex;
+ 	flex-direction: column;
+ }
+
+ .projects_div{
+ 	position: relative;
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content: space-between;
+ }
+
+ .project{
+ 	margin-left: 4rem;
+ 	margin-right: 4rem;
+ 	margin-top: 10rem;
+ 	border-radius: 2rem;
+ 	box-shadow: 0px 0px 2rem 0.5rem #ccc;
+ 	background-color: white;
+ }
+
+ .projects_options{
+ 	padding: 10rem;
+ }
+
+ .project_img{
+ 	width: 40rem;
+ 	height: 30rem;
+ }
+
+ .project_text{
+ 	font-size: 2rem;
+ 	font-family: 'Dancing Script', cursive;
+ }
+
+ .button_project{
+ 	font-size: 2rem;
+ 	padding: 1rem;
+ 	background-color: #f44336;
+ 	border-radius: 1rem;
+ 	border: none;
+ 	font-family: 'Roboto', sans-serif;
+ }
+
+ .view_button{
+ 	font-size: 2rem;
+ 	margin-left: 2rem;
+ 	margin-right: 2rem;
+ 	background-color: #f44336;
+ 	color: white;
+ 	border-radius: 1rem;
+ 	border: none;
+ 	padding: 2rem;
+ }
+
+ /*Start footer*/
+
+ #footer{
+ 	display: flex;
+ 	justify-content: space-between;
+ 	background-color: black;
+ 	color: white;
+ }
+
+ .logo{
+ 	font-size: 4rem;
+ }
+
+ .social_media{
+ 	display: flex;
+ }
+
+ .icon{
+ 	width: 4rem;
+ 	margin-left: 1rem;
+ 	margin-right: 1rem;
+ 	cursor: pointer;
+ }
